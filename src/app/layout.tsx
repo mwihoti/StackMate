@@ -10,6 +10,9 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'StackMate — Find your builder partner on Bitcoin L2',
   description: 'Connect with builders on the Stacks ecosystem. Find project partners, collaborators, and co-founders.',
+  other: {
+    'talentapp:project_verification': 'b9294b57f42c718cc231093c3c17fb293c2e251d13e6d44b998964b5e59b1190b814b5cafcbbccc115bf34b55a0b7c2c7878a8995976eb25c9bdb49623932587',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
