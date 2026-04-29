@@ -1,0 +1,1 @@
+clarinet deployments apply -p deployments/default.mainnet-plan.yaml --use-on-disk-deployment-plan   
